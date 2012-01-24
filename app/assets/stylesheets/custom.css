@@ -37,11 +37,7 @@ a:hover {
 }
 
 a:visited {
-    color: #069;
-}
-
-nav {
-    float: right;
+    color: #06c;
 }
 
 nav {
@@ -71,7 +67,12 @@ nav ul li a:visited {
 }
 
 nav ul li a:hover {
+    color: #096;
     text-decoration: underline;
+}
+
+nav {
+    float: right;
 }
 
 a.signup_button {
@@ -171,4 +172,12 @@ div.field, div.actions {
 #error_explanation ul li {
     font-size: 12px;
     list-style: square;
+}
+
+ul.users {
+    margin-top: 1em;
+}
+
+.users li {
+    list-style: none;
 }
